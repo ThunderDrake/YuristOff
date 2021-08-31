@@ -1,1 +1,6 @@
-"use strict";document.addEventListener("DOMContentLoaded",(function(){setTimeout((function(){document.querySelectorAll(".b24-form").forEach((function(t,o){t.classList.add("form".concat(o))}))}),500)})),document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll("[data-scroll]").forEach((function(t){t.addEventListener("click",(function(){var o=t.getAttribute("data-scroll"),e=document.querySelector(".".concat(o)).offsetTop;window.scrollTo({top:e-150,behavior:"smooth"}),setTimeout((function(){}),600)}))}))}));
+/**
+  * название функции
+  *
+  * @param {number} first - первое число
+  * @returns {number}
+  */
